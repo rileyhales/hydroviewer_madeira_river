@@ -9,7 +9,7 @@ requirements:
   conda:
     channels:
       - conda-forge
-    dependencies:
+    packages:
       - geoglows>=0.18.1
       - hydrostats
       - pandas
@@ -17,6 +17,7 @@ requirements:
       - plotly
       - numpy
       - scipy
+      - lxml
 
   pip:
 
