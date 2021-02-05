@@ -14,10 +14,10 @@ resource_files += find_resource_files('tethysapp/' + app_package + '/public', 't
 
 setup(
     name=release_package,
-    version='1',
+    version='1.0',
     description='This app evaluates the accuracy for the historical streamflow values obtained from Streamflow Prediction Tool in Madeira River Basin.',
     long_description='',
-    keywords='Historical Validation Tool',
+    keywords='"Hydrology", "Time Series", "Bias Correction", "Hydrostats", "GEOGloWS", "Historical Validation Tool"',
     author='Jorge Luis Sanchez-Lozano, Chris Edwards, Anna Cecil, Tessa Muir',
     author_email='jorgessanchez7@gmail.com, chris3edwards3@gmail.com, anna.cecil1999@gmail.com, tessmuir16@gmail.com',
     url='',
